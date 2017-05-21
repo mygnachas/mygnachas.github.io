@@ -14,6 +14,35 @@ A { color: #000000 ;
 }
 h4 { color:#FF0000; 
 }
+.imgleft{
+    float: left;
+    margin:40px 0px  195px 0px;
+    max-width: 300px;
+    max-height: 550px;
+}
+.imgright{
+    float: right;
+    margin:40px 0px 195px 0px;
+    max-width: 300px;
+    max-height: 550px; 
+}
+@media screen and (max-width:1350px) {
+    .imgleft , .imgright {width: 250px;
+}
+   @media screen and (max-width:1140px) {
+    .imgleft , .imgright {width: 150px;
+}
+       @media screen and (max-width:1140px) {
+    .imgleft , .imgright {height: 225px;
+}   
+       @media screen and (max-width:840px) {
+    .imgleft , .imgright {
+        width: 150px;
+        display: block;
+}
+        @media screen and (max-width:460) {
+    h2 { font-size: 1.0em ;  
+} 
  </style >
 </HEAD>
 <BODY>
@@ -21,6 +50,8 @@ h4 { color:#FF0000;
 <hr>
 <button><A HREF="index.html">Главная</A></button> <button><A HREF="new1.html">О нас</A></button> <button><A HREF="new2.html">Стоимость услуг</A></button> <BUTTON><A HREF="Форма3.html">Оставить заявку</A></BUTTON>
 <hr>
+<div style="top:195px;left: 40px"><img class="imgleft" src="img.jpg\images (3).jpg"width="350" height="550"></div>
+ <div style="top:195px;right: 40px"><img class="imgright" src="img.jpg\images (2).jpg"width="350" height="550"></div>
 <center>
  <CAPTION><h2>Сборка мебели</h2></CAPTION>
 <TABLE border="1" width="50%" cellpadding="5">
@@ -166,7 +197,6 @@ h4 { color:#FF0000;
 <p>*Прайс лист является ознакомительным,не являеться публичной офертой</p>
 <h4><em>Телефон диспетчера:(383) 286 54 69</em></h4>
 <button><A HREF="index.html">Главная</A></button> <button><A HREF="new2.html">Стоимость услуг</A></button></center>
-<div style="position:fixed; top:195px;left: 40px"><img src="img.jpg\images (3).jpg"width="350" height="550"></div>
- <div style="position:fixed; top:195px;right: 40px"><img src="img.jpg\images (2).jpg"width="350" height="550"></div>
+
 </body>
 </html>
