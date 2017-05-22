@@ -1,2 +1,3 @@
 ﻿User-agent: *
 Host: mygnachas.github.io
+Sitemap://mygnachas.github.io/sitemap.xml
