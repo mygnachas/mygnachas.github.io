@@ -1,3 +1,6 @@
 ﻿User-agent: *
 Host: mygnachas.github.io
-Sitemap://mygnachas.github.io/sitemap.xml
+Sitemap: https://mygnachas.github.io/sitemap.xml
+Sitemap: https://mygnachas.github.io/sitemap.xtml
+Sitemap: https://mygnachas.github.io/ror.xml
+Sitemap: https://mygnachas.github.io/urlist.txt
